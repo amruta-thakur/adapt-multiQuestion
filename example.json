@@ -1,0 +1,6 @@
+//to go in article.json
+"_multiQuestion": {
+    "_isEnabled": true,
+    "_blockListLevelOne": ["b-62","b-63","b-64"],
+    "_blockListLevelTwo": ["b-65","b-66","b-67"]
+}

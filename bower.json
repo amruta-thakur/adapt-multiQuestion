@@ -1,0 +1,20 @@
+{
+  "name": "adapt-multiQuestion",
+  "version": "2.0.4",
+  "framework": "^2.0.0",
+  "homepage": "https://github.com/amruta-thakur/adapt-multiQuestion",
+  "issues": "https://github.com/amruta-thakur/adapt-multiQuestion/issues",
+  "displayName" : "Multi Question",
+  "extension" : "multiQuestion",
+  "authors": [
+    "Amruta Thakur <amruta.thakur@exultcorp.com>"
+  ],
+  "description": "An extension which provides a basic feedback overlay for question components",
+  "main": "/js/adapt-multiQuestion.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-extension"
+  ],
+  "license": "GPLv3",
+  "targetAttribute": "_multiQuestion"
+}
