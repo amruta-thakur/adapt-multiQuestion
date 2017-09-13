@@ -5,19 +5,11 @@
         {
             "_isPresentationView":false,
             "_shouldUpdateIcon":true,
-            "currentBlockId":"1-b-10",
+            "currentBlockId":"b-10",
             "_blockList":[
-                ["1-b-15","1-b-30"],
-                ["1-b-20","1-b-35"],
-                ["1-b-25","1-b-40"]
-            ]
-        },
-        {
-            "_isPresentationView":true,
-            "_shouldUpdateIcon":false,
-            "currentBlockId":"1-b-70",
-            "_blockList":[
-                ["1-b-75","1-b-80","1-b-85"]
+                ["b-15","b-30"],
+                ["b-20","b-35"],
+                ["b-25","b-40"]
             ]
         }
     ]
