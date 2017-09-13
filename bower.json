@@ -7,7 +7,8 @@
   "displayName" : "Multi Question",
   "extension" : "multiQuestion",
   "authors": [
-    "Amruta Thakur <amruta.thakur@exultcorp.com>"
+    "Amruta Thakur <amruta.thakur@exultcorp.com>",
+    "Chetan Hajare <chetan.hajare@exultcorp.com>"
   ],
   "description": "An extension which provides a basic feedback overlay for question components",
   "main": "/js/adapt-multiQuestion.js",

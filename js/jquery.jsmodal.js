@@ -16,6 +16,7 @@
 $.fn.modal = function(options) {
     var defaults = {
       closeButton : '.close,.cancel',
+      nextButton : '.nextModal',
       escClose    : true,
       onCloseFn   : null,
       onOpenFn    : null,
@@ -46,23 +47,29 @@ $.fn.modal = function(options) {
       // add close event handler to overlay
       $(".modal-overlay").click(function(e) {
         e.preventDefault();
-        closeModal(modal, o);
+        //closeModal(modal, o);
       });
 
       // add close event handler to close buttons
       $(o.closeButton).click(function(e) {
         e.preventDefault();
-        closeModal(modal, o)
+        closeModal(modal, o);
+      });
+
+      // add next event handler to next buttons
+      $(o.nextButton).click(function(e) {
+        e.preventDefault();
+        closeModal(modal, o);
       });
       
-      if (o.escClose){
+      /*if (o.escClose){
         // add close event handler to ESC key. Event is namespaced, so we can remove it after we've closed the modal
         $(window).on('keydown.'+o.id, function(event) {
             if (event.which === 27){
                 closeModal(modal, o);
             }
         });
-      };
+      };*/
 
       $(o.doneButton, modal).on('click.callback', function(e){
         e.preventDefault();
@@ -100,7 +107,9 @@ $.fn.modal = function(options) {
      */
     function decorate(modal, options){
       if (modal.find('.body').length === 0){
-        var body =  $('<div class="body"></div>'), footer, content;
+        var body =  $('<div class="body">\
+                        <a class="nextModal" href="#">Next</a>\
+                       </div>'), footer, content;
 
         modal.children().each(function(i,e){
           if ($(e).is(".footer")){

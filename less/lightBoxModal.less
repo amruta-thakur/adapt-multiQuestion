@@ -11,16 +11,15 @@
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000;
+  z-index: 9999;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
 }
 .modal{
-  width:95%;
+  /*width:80%;
   height: 95%;
   border-radius: 5px;
-/*  height: auto;*/
   left: 50%;
   max-width: 100%;
   min-width: 320px;
@@ -29,7 +28,7 @@
   padding-bottom: 2px;
   position: fixed;
   text-align: left;
-  top: 50%;
+  top: 48%;
   visibility: hidden;
   z-index: 11000;
   -webkit-backface-visibility: hidden;
@@ -38,7 +37,24 @@
   -webkit-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   -ms-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);*/
+      width: 80%;
+    height: auto;
+    border-radius: 5px;
+    left: 50%;
+    padding-bottom: 2px;
+    position: fixed;
+    text-align: left;
+    top: 50%;
+    visibility: hidden;
+    z-index: 11000;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
 .modal-hide{
   position: fixed;
@@ -102,9 +118,9 @@
 .modal .body iframe{
    height: 100% !important;
  }
-.modal .body img{
-  height: 90% !important;
-}
+/*.modal .body img{
+  width: 100% !important;
+}*/
 
 
 .modal .footer{
@@ -561,6 +577,7 @@
   opacity: 1;
 }
 
-.modal .content img{
+/*.modal .content img{
   width: 100%;
 }
+*/
