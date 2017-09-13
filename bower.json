@@ -1,13 +1,14 @@
 {
   "name": "adapt-multiQuestion",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "framework": "^2.0.0",
   "homepage": "https://github.com/amruta-thakur/adapt-multiQuestion",
   "issues": "https://github.com/amruta-thakur/adapt-multiQuestion/issues",
   "displayName" : "Multi Question",
   "extension" : "multiQuestion",
   "authors": [
-    "Amruta Thakur <amruta.thakur@exultcorp.com>"
+    "Amruta Thakur <amruta.thakur@exultcorp.com>",
+    "Chetan Hajare <chetan.hajare@exultcorp.com>"
   ],
   "description": "An extension which provides a basic feedback overlay for question components",
   "main": "/js/adapt-multiQuestion.js",

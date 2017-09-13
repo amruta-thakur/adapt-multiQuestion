@@ -1,6 +1,38 @@
 //to go in article.json
 "_multiQuestion": {
     "_isEnabled": true,
-    "_blockListLevelOne": ["b-62","b-63","b-64"],
-    "_blockListLevelTwo": ["b-65","b-66","b-67"]
+    "_hotGraphicList":[
+        {
+            "_isPresentationView":false,
+            "_shouldUpdateIcon":true,
+            "currentBlockId":"1-b-10",
+            "_blockList":[
+                ["1-b-15","1-b-30"],
+                ["1-b-20","1-b-35"],
+                ["1-b-25","1-b-40"]
+            ]
+        },
+        {
+            "_isPresentationView":true,
+            "_shouldUpdateIcon":false,
+            "currentBlockId":"1-b-70",
+            "_blockList":[
+                ["1-b-75","1-b-80","1-b-85"]
+            ]
+        }
+    ]
 }
+}
+//Note: Each array in the blockList is set of questions for each pin.
+
+//to go in component.json
+"_multiQuestion":{
+    "_isEnabled": true,
+    "_nextButton":true,
+    "_tryAgainButton":false,
+    "_prevButton":false,
+    "_nextTitle":"Next",
+    "_tryAgainTitle":"Try Again",
+    "_prevTitle":"Previous"
+}
+//Note: Above code which is to be filled in component.json is used if user wish to add "prev", "try again" or "next" buttons in their component.
